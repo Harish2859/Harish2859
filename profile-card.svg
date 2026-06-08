@@ -64,7 +64,7 @@
   <g transform="translate(36, 35)">
     <rect width="145" height="20" rx="10" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.2)" />
     <circle cx="12" cy="10" r="3.5" fill="#4ade80" />
-    <text x="24" y="14" class="mono-text" font-size="9" fill="#4ade80" font-weight="700">available for ML collabs</text>
+    <text x="24" y="14" class="mono-text" font-size="9" fill="#4ade80" font-weight="700">available for ML collaboration</text>
 
     <g transform="translate(153, 0)">
       <rect width="105" height="20" rx="10" fill="rgba(56,139,255,0.1)" stroke="rgba(56,139,255,0.2)" />
