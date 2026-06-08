@@ -1,3 +1,3 @@
 # Hi, I'm Harish! 👋
 
-![AI Profile Card](profile-card.svg)
+![Harish M AI engineer profile card showing skills and ML pipeline metrics](profile-card.svg)
