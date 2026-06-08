@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 380" width="100%" height="100%">
+  <defs>
+    <style>
+      .root-text { font-family: 'Outfit', sans-serif; color: #e8edf5; }
+      .mono-text { font-family: 'JetBrains Mono', monospace; }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.2); }
+      }
+      @keyframes net-glow {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      .node-p { animation: pulse 3s ease-in-out infinite; transform-origin: center; }
+      .node-p2 { animation: pulse 4s ease-in-out infinite 1s; transform-origin: center; }
+      .net-line { animation: net-glow 5s ease-in-out infinite; }
+      .cursor { animation: blink 1s step-end infinite; fill: #a855f7; }
+
+      .chip { fill: #040814; stroke: rgba(168,85,247,0.2); stroke-width: 1; }
+      .chip-text { font-size: 11px; fill: #64748b; font-family: 'JetBrains Mono', monospace; }
+    </style>
+
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040814" />
+      <stop offset="100%" stop-color="#02040a" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#63b3ff" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+
+  <rect width="650" height="380" rx="20" fill="url(#bg-grad)" stroke="rgba(99, 179, 255, 0.1)" stroke-width="1"/>
+
+  <g class="net-line" stroke="rgba(59,130,246,0.15)" stroke-width="0.8">
+    <line x1="40" y1="60" x2="120" y2="40" />
+    <line x1="120" y1="40" x2="200" y2="90" />
+    <line x1="40" y1="60" x2="100" y2="150" />
+    <line x1="100" y1="150" x2="200" y2="90" />
+    <line x1="200" y1="90" x2="280" y2="40" />
+    <line x1="520" y1="80" x2="590" y2="40" />
+    <line x1="590" y1="40" x2="610" y2="150" />
+    <line x1="480" y1="180" x2="550" y2="240" />
+    <line x1="550" y1="240" x2="620" y2="280" />
+  </g>
+
+  <circle class="node-p" cx="40" cy="60" r="3" fill="#3b82f6" />
+  <circle class="node-p2" cx="120" cy="40" r="2.5" fill="#a855f7" />
+  <circle class="node-p" cx="200" cy="90" r="4" fill="#3b82f6" />
+  <circle class="node-p2" cx="100" cy="150" r="3" fill="#a855f7" />
+  <circle class="node-p" cx="590" cy="40" r="3.5" fill="#3b82f6" />
+  <circle class="node-p2" cx="550" cy="240" r="4" fill="#a855f7" />
+
+  <g transform="translate(36, 35)">
+    <rect width="145" height="20" rx="10" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.2)" />
+    <circle cx="12" cy="10" r="3.5" fill="#4ade80" />
+    <text x="24" y="14" class="mono-text" font-size="9" fill="#4ade80" font-weight="700">available for ML collaboration</text>
+
+    <g transform="translate(153, 0)">
+      <rect width="105" height="20" rx="10" fill="rgba(56,139,255,0.1)" stroke="rgba(56,139,255,0.2)" />
+      <text x="10" y="14" class="mono-text" font-size="9" fill="#63b3ff" font-weight="700">LLM &amp; RAG Pipelines</text>
+    </g>
+  </g>
+
+  <g transform="translate(36, 85)" class="root-text">
+    <text class="mono-text" font-size="11" fill="#3b82f6" letter-spacing="3">// HARISH_M.AI</text>
+    <text y="36" font-size="38" font-weight="800" fill="#ffffff">Hi, I'm <tspan fill="url(#text-grad)">Harish.</tspan></text>
+    <text y="58" class="mono-text" font-size="14" fill="#94a3b8">AI Engineer / Data Scientist<tspan class="cursor">|</tspan></text>
+  </g>
+
+  <g transform="translate(36, 175)" class="mono-text">
+    <text font-size="18" font-weight="700" fill="#fff">14K<tspan fill="#a855f7">+</tspan></text>
+    <text y="14" font-size="8" fill="#475569" letter-spacing="1">INFERENCES</text>
+
+    <g transform="translate(110, 0)">
+      <text font-size="18" font-weight="700" fill="#fff">24<tspan fill="#a855f7">+</tspan></text>
+      <text y="14" font-size="8" fill="#475569" letter-spacing="1">MODELS TUNED</text>
+    </g>
+
+    <g transform="translate(220, 0)">
+      <text font-size="18" font-weight="700" fill="#fff">8</text>
+      <text y="14" font-size="8" fill="#475569" letter-spacing="1">GPU NODES</text>
+    </g>
+  </g>
+
+  <g transform="translate(36, 230)">
+    <text class="mono-text" font-size="9" fill="#93c5fd" letter-spacing="1.5">CORE ARCHITECTURE</text>
+
+    <g transform="translate(0, 12)">
+      <rect class="chip" width="65" height="22" rx="4"/><text x="10" y="15" class="chip-text">PyTorch</text>
+      <rect class="chip" x="71" width="80" height="22" rx="4"/><text x="81" y="15" class="chip-text">TensorFlow</text>
+      <rect class="chip" x="157" width="85" height="22" rx="4"/><text x="167" y="15" class="chip-text">HuggingFace</text>
+      <rect class="chip" x="248" width="75" height="22" rx="4"/><text x="258" y="15" class="chip-text">LangChain</text>
+
+      <g transform="translate(0, 28)">
+        <rect class="chip" width="55" height="22" rx="4"/><text x="10" y="15" class="chip-text">Python</text>
+        <rect class="chip" x="61" width="75" height="22" rx="4"/><text x="71" y="15" class="chip-text">ChromaDB</text>
+        <rect class="chip" x="142" width="55" height="22" rx="4"/><text x="152" y="15" class="chip-text">FastAPI</text>
+        <rect class="chip" x="203" width="55" height="22" rx="4"/><text x="213" y="15" class="chip-text">Docker</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(390, 215)">
+    <text class="mono-text" font-size="9" fill="#93c5fd" letter-spacing="1.5">WORKSPACE METRICS</text>
+
+    <g transform="translate(0, 20)">
+      <text class="mono-text" font-size="10" fill="#94a3b8">Python Core</text>
+      <rect x="100" y="-8" width="100" height="4" rx="2" fill="rgba(255,255,255,0.05)"/>
+      <rect x="100" y="-8" width="85" height="4" rx="2" fill="url(#bar-grad)"/>
+      <text x="210" class="mono-text" font-size="9" fill="#475569">85%</text>
+    </g>
+
+    <g transform="translate(0, 42)">
+      <text class="mono-text" font-size="10" fill="#94a3b8">Vector DBs</text>
+      <rect x="100" y="-8" width="100" height="4" rx="2" fill="rgba(255,255,255,0.05)"/>
+      <rect x="100" y="-8" width="68" height="4" rx="2" fill="url(#bar-grad)"/>
+      <text x="210" class="mono-text" font-size="9" fill="#475569">68%</text>
+    </g>
+
+    <g transform="translate(0, 64)">
+      <text class="mono-text" font-size="10" fill="#94a3b8">MLOps Pipelines</text>
+      <rect x="100" y="-8" width="100" height="4" rx="2" fill="rgba(255,255,255,0.05)"/>
+      <rect x="100" y="-8" width="45" height="4" rx="2" fill="url(#bar-grad)"/>
+      <text x="210" class="mono-text" font-size="9" fill="#475569">45%</text>
+    </g>
+  </g>
+
+  <g transform="translate(500, 110)">
+    <circle r="40" fill="none" stroke="rgba(168,85,247,0.2)" stroke-width="1" stroke-dasharray="4 4" class="node-p"/>
+    <circle r="34" fill="none" stroke="url(#text-grad)" stroke-width="1.5" opacity="0.6"/>
+    <circle r="28" fill="#0f172a" />
+    <text text-anchor="middle" y="5" class="mono-text" font-size="14" font-weight="700" fill="#a855f7">AI</text>
+  </g>
+
+  <line x1="36" y1="340" x2="614" y2="340" stroke="rgba(99,179,255,0.05)" stroke-width="1"/>
+  <text x="36" y="358" class="mono-text" font-size="9" fill="#334155">Node // Chennai, India</text>
+  <text x="614" y="358" text-anchor="end" class="mono-text" font-size="9" fill="#334155">think with purpose · automate with precision</text>
+</svg>
