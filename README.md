@@ -1,14 +1,15 @@
 <h1 align="center">Hi, I'm Harish 👋</h1>
-<h3 align="center">AI & Data Science Undergraduate · Full-Stack Developer · Building practical LLM products</h3>
+<h3 align="center">AI & Data Science Undergraduate · Full-Stack + DevOps Learner · Practical Builder</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Location-Chennai%2C%20India-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%2B%20Engineering-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-AI%20Engineering%20%7C%20Backend%20%7C%20DevOps-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20Collaborations-16A34A?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=harishm-ai&style=flat-square&color=blueviolet" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Harish2859&style=flat-square&color=blueviolet" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/Harish2859?style=flat-square&label=Followers" alt="followers" />
 </p>
 
 ---
@@ -16,10 +17,11 @@
 ## 👨‍💻 About Me
 
 - Pre-final year **B.Tech AI & Data Science** student at **Chennai Institute of Technology**
-- I work at the overlap of:
+- I build across:
   - **AI/ML**: LLMs, NLP, RAG, agent workflows
-  - **Full-Stack**: React, Node.js, Express, PostgreSQL
-- I enjoy turning AI ideas into usable products instead of keeping them as notebooks
+  - **Backend**: Java, Spring Boot, Node.js, Express, PostgreSQL
+  - **DevOps**: Docker, Jenkins, CI/CD, Maven, GitHub Actions
+- Goal: ship practical products with clean architecture and reliable pipelines
 
 ---
 
@@ -32,32 +34,45 @@
 ![RAG](https://img.shields.io/badge/RAG-4B5563?style=flat-square)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1F2937?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-4B0082?style=flat-square)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square)
 
-### Full-Stack & Cloud
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+### Backend / Frameworks
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+### DevOps / Tooling
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-0EA5E9?style=flat-square&logo=githubactions&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
-## 🚀 Current Direction
+## 📈 Skill Level Snapshot
 
-- Building stronger **RAG and agentic AI pipelines**
-- Improving fundamentals in **classical ML** and **MLOps**
-- Open to **AI/ML internships** and **full-stack collaboration**
+| Area | Level | Visual |
+|---|---|---|
+| Spring Boot | Intermediate | ████████░░ 80% |
+| Docker | Intermediate | ████████░░ 80% |
+| Jenkins | Beginner → Intermediate | ██████░░░░ 60% |
+| CI/CD | Intermediate | ███████░░░ 70% |
+| Maven | Intermediate | ███████░░░ 70% |
+| LLM + RAG | Intermediate | ████████░░ 80% |
 
 ---
 
-## 📊 GitHub Snapshot
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=harishm-ai&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harishm-ai&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Harish2859&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harish2859&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Harish2859&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center"><code>think with purpose · build with precision</code></p>
